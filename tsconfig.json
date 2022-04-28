@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "baseUrl": ".",
+    "rootDir": ".",
+    "outDir": ".",
+    "inlineSources": true,
+    "target": "es2019",
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "sourceMap": true,
+    "noImplicitUseStrict": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "jsx": "react",
+    "declarationDir": "decl/",
+    "declaration": true,
+    
+  },
+  "files": [
+    "tokenize.ts"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
+}
