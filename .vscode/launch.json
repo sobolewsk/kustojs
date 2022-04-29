@@ -9,7 +9,7 @@
       "type": "node",
       "request": "launch",
       "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
-      "args": ["./wtf.ts", "--transpile-only"],
+      "args": ["./exclude.ts", "--transpile-only"],
       "cwd": "${workspaceFolder}",
       "internalConsoleOptions": "openOnSessionStart",
       "skipFiles": ["<node_internals>/**", "node_modules/**"],
